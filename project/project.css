@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(236, 205, 164);
+}
+
+.topnav a {
+    padding: 20px 100px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;      /*xoa gach chan o cac chu*/
+    font-size: 22px;
+    font-weight:200;
+    font-family: 'Chakra Petch', sans-serif;;
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  .topnav a:hover {
+    text-decoration:overline;
+    text-decoration-thickness: 4px;
+    transition-duration: 5s;
+  }
+
+  .content a {
+      padding-left: 50px ;
+
+  }
+
+  .content p {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-left: 70px;
+  }
