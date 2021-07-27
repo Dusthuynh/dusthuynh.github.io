@@ -1,43 +1,24 @@
 body{
- background-image:url(drew-beamer-pek8uLQauMk-unsplash.jpg);
- background-color: #cccccc;
+ background-image:url(christian-wiediger-WkfDrhxDMC8-unsplash.jpg);
+ background-color: #e7e7e7;
  background-size: cover;
- color:#000000
+}
+.topnav a {
+  padding: 20px 100px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;      /*xoa gach chan o cac chu*/
+  font-size: 22px;
+  font-weight:200;
+  font-family: 'Chakra Petch', sans-serif;;
+  display: inline-block;
+  list-style-type: none;
 }
 
-.topnav {
-    overflow: hidden;
-    display:flex;
+.topnav a:hover {
+  text-decoration:overline;
+  text-decoration-thickness: 4px;
+}
 
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #f3f3f3;
-    text-align:center;
-    padding: 15px 85px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: rgb(143, 143, 143);
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-  .topnav input[type=text] {
-    float: right;
-    padding: 6px 15px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-  }
+footer{
+  color: aliceblue;
+}
