@@ -5,7 +5,8 @@ body{
 
 }
 .topnav a {
-  padding: 20px 100px;
+  float:left;
+  padding: 20px 80px;
   color: rgb(255, 255, 255);
   text-decoration: none;      /*xoa gach chan o cac chu*/
   font-size: 22px;
@@ -27,6 +28,17 @@ footer{
   padding-left: 45%;
 }
 
+
+.linkSM a {
+  float:left;
+  padding: 25px 20px;
+}
+
+.linkSM a.youtube {
+ margin-top:3px;
+}
+
 .trend {
-  padding-left: 50px;
+
+  padding-left: 42%;
 }
