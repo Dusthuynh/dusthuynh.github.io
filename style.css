@@ -41,3 +41,8 @@ footer{
 .trend {
   padding-left: 42%;
 }
+
+.footer{
+  position:static;
+}
+
