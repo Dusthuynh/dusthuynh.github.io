@@ -32,12 +32,8 @@ footer{
   padding-left: 45%;
 }
 
-#linkSM{
-  padding: 20px;
-}
-
-#linkSM a{                                    /*vuong thac mac khuc nay*/
-  padding: 7px;
+#linkSM {
+  padding: 20px 20px;                               /*vuong cho nay ne*/
 }
 
 .trend {
@@ -47,7 +43,8 @@ footer{
 .logo{
   color: rgb(255, 255, 255);
   padding: 20px 30px;
-  font-size: 30px;
+  font-size: 45px;
+  font-family: 'Style Script', cursive;
 }
 
 #top{
