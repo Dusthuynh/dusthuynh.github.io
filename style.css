@@ -2,6 +2,7 @@ body{
  background-image:url(christian-wiediger-WkfDrhxDMC8-unsplash.jpg);
  background-color: #e7e7e7;
  background-size: cover;
+ color: #e7e7e7;
 }
 
 #topnav{
@@ -48,7 +49,8 @@ footer{
 }
 
 .trend {
-  padding-left: 42%;
+padding-left: 43%;
+margin-top: 10%;
 }
 
 .logo{
@@ -61,4 +63,13 @@ footer{
 #top{
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px){
+#top{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 }
