@@ -2,24 +2,28 @@ body{
  background-image:url(christian-wiediger-WkfDrhxDMC8-unsplash.jpg);
  background-color: #e7e7e7;
  background-size: cover;
-
 }
-.topnav a {
+
+#topnav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.content a {
+  transition-duration: 0.9s;
   float:left;
-  padding: 20px 80px;
+  padding: 20px 30px;
   color: rgb(255, 255, 255);
   text-decoration: none;      /*xoa gach chan o cac chu*/
   font-size: 22px;
   font-weight:200;
   font-family: 'Chakra Petch', sans-serif;;
-  display: inline-block;
-  list-style-type: none;
 }
 
-.topnav a:hover {
+.content a:hover {
   text-decoration:overline;
   text-decoration-thickness: 4px;
-  transition-duration: 5s;
 }
 
 footer{
@@ -28,21 +32,25 @@ footer{
   padding-left: 45%;
 }
 
-
-.linkSM a {
-  float:left;
-  padding: 25px 20px;
+#linkSM{
+  padding: 20px;
 }
 
-.linkSM a.youtube {
- margin-top:3px;
+#linkSM a{                                    /*vuong thac mac khuc nay*/
+  padding: 7px;
 }
 
 .trend {
   padding-left: 42%;
 }
 
-.footer{
-  position:static;
+.logo{
+  color: rgb(255, 255, 255);
+  padding: 20px 30px;
+  font-size: 30px;
 }
 
+#top{
+  display: flex;
+  justify-content: space-between;
+}
