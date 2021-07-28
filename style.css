@@ -11,7 +11,7 @@ body{
 }
 
 .content a {
-  transition-duration: 0.9s;
+  transition-duration: 0.5s;
   float:left;
   padding: 20px 30px;
   color: rgb(255, 255, 255);
@@ -22,8 +22,9 @@ body{
 }
 
 .content a:hover {
-  text-decoration:overline;
-  text-decoration-thickness: 4px;
+  /*text-decoration:overline;
+  text-decoration-thickness: 4px;*/
+  color: #1DA1F2;
 }
 
 footer{
@@ -32,8 +33,18 @@ footer{
   padding-left: 45%;
 }
 
-#linkSM {
-  padding: 20px 20px;                               /*vuong cho nay ne*/
+#linkSM{
+  padding-top: 25px;
+  margin-right: 40px;
+}
+
+.icon{
+  padding: 5px;
+  color: rgb(255, 255, 255);
+}
+
+.icon:hover{
+  color: #1DA1F2;
 }
 
 .trend {
