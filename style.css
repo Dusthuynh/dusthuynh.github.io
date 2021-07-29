@@ -68,6 +68,7 @@ margin-top: 10%;
 @media only screen and (max-width: 600px){
 body{
   background-repeat: no repeat;
+  background-attachment: fixed;
 }
 
 #top{
