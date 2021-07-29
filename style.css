@@ -45,12 +45,12 @@ footer{
 }
 
 .icon:hover{
-  color: #1DA1F2;
+  color: rgb(46, 126, 192);
+  font-weight: bold;
 }
 
 .trend {
 padding-left: 43%;
-margin-top: 10%;
 }
 
 .logo{
@@ -63,6 +63,16 @@ margin-top: 10%;
 #top{
   display: flex;
   justify-content: space-between;
+}
+
+#middle_page{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:5%;
+  font-family: 'Chakra Petch', sans-serif;
+  transition-duration: 3s, 1s; 
 }
 
 @media only screen and (max-width: 600px){
