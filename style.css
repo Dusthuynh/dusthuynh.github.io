@@ -99,12 +99,6 @@ padding-left: 43%;
   font-size: 30px;
   font-family: 'WindSong', cursive;
   padding-left: 300px;
-  transition: 0.9s;
-}
-
-.author:hover{
-  color: #e7a937e3;
-  transform: scale(1.1);
 }
 
 #intro img{
