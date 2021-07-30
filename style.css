@@ -1,5 +1,4 @@
 body{
- /*background-image:url(christian-wiediger-WkfDrhxDMC8-unsplash.jpg);*/
  background-color: #4E5851;
  background-size: cover;
  color: #e7e7e7;
@@ -22,7 +21,7 @@ body{
   text-decoration: none;      /*xoa gach chan o cac chu*/
   font-size: 22px;
   font-weight:200;
-  font-family: 'Chakra Petch', sans-serif;;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .content a:hover {
@@ -70,7 +69,7 @@ padding-left: 43%;
 }
 
 .logo:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 #top{
@@ -95,6 +94,7 @@ padding-left: 43%;
   padding:120px 0px 0px 70px;
 }
 
+
 .author{
   font-size: 30px;
   font-family: 'WindSong', cursive;
@@ -106,6 +106,7 @@ padding-left: 43%;
   height: auto;
   margin-right: 0%;
 }
+
 
 #main{
   display: flex;
