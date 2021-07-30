@@ -38,13 +38,23 @@ body{
 }
 
 .icon{
+  margin-left: 2px;
   padding: 5px;
-  color: rgb(255, 255, 255);
+  color: rgb(233, 233, 233);
+  border-style:solid;
+  border-block-start-width: 5px;
+  border-top-color: #ada692;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.facebook{
+  padding-left:6px;
+  padding-right: 6px;
 }
 
 .icon:hover{
-  color: #e9e1cf;
-  font-weight: bold;
+  background-color: #ada692;
 }
 
 .trend {
@@ -102,6 +112,7 @@ padding-left: 43%;
   justify-content: space-between;
   padding: 70px 100px 30px 100px;
 }
+
 
 .text{
   font-size: 27px;
