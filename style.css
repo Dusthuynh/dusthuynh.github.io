@@ -56,7 +56,7 @@ padding-left: 43%;
   padding: 20px 30px;
   font-size: 45px;
   font-family: 'Style Script', cursive;
-  transition: transform 0.9s;
+  transition: transform 1s;
 }
 
 .logo:hover{
@@ -114,18 +114,18 @@ padding-left: 43%;
   color: #ada692;
 }
 
-
-@media only screen and (max-width: 600px){
-body{
-  background-repeat: no repeat;
-  background-attachment: fixed;
-}
-
-#top{
-  display:flex;
+footer{
+  font-size: 13px;
+  color: #9caaa0;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
+
+
+
+@media only screen and (max-width: 600px){
 
 }
