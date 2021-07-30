@@ -5,9 +5,6 @@ body{
  color: #e7e7e7;
  margin: 0;
  padding: 0;
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=WindSong&display=swap" rel="stylesheet">
 }
 
 #topnav{
@@ -76,7 +73,7 @@ padding-left: 43%;
   background-color: #4E5851;
   border-style:solid;
   border-color: #b4afa1;
-  border-width: 50px;
+  border-width: 30px;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -99,6 +96,24 @@ padding-left: 43%;
   height: auto;
   margin-right: 0%;
 }
+
+#main{
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 100px 30px 100px;
+}
+
+.text{
+  font-size: 27px;
+  font-family: 'Barlow', sans-serif;
+  padding: 40px;
+}
+
+.text a{
+  text-decoration: none;
+  color: #ada692;
+}
+
 
 @media only screen and (max-width: 600px){
 body{
