@@ -1,14 +1,20 @@
 body{
- background-image:url(christian-wiediger-WkfDrhxDMC8-unsplash.jpg);
- background-color: #e7e7e7;
+ /*background-image:url(christian-wiediger-WkfDrhxDMC8-unsplash.jpg);*/
+ background-color: #4E5851;
  background-size: cover;
  color: #e7e7e7;
+ margin: 0;
+ padding: 0;
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=WindSong&display=swap" rel="stylesheet">
 }
 
 #topnav{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  padding-top: 20px;
 }
 
 .content a {
@@ -25,14 +31,9 @@ body{
 .content a:hover {
   /*text-decoration:overline;
   text-decoration-thickness: 4px;*/
-  color: #1DA1F2;
+  color: #e9e1cf;
 }
 
-footer{
-  color: aliceblue;
-  font-family:'Times New Roman', Times, serif;
-  padding-left: 45%;
-}
 
 #linkSM{
   padding-top: 25px;
@@ -45,7 +46,7 @@ footer{
 }
 
 .icon:hover{
-  color: rgb(46, 126, 192);
+  color: #e9e1cf;
   font-weight: bold;
 }
 
@@ -58,21 +59,45 @@ padding-left: 43%;
   padding: 20px 30px;
   font-size: 45px;
   font-family: 'Style Script', cursive;
+  transition: transform 0.9s;
+}
+
+.logo:hover{
+  transform: scale(1.2);
 }
 
 #top{
   display: flex;
   justify-content: space-between;
+  margin-left: 30px;
 }
 
-#middle_page{
-  display:flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin-top:5%;
-  font-family: 'Chakra Petch', sans-serif;
-  transition-duration: 3s, 1s; 
+#intro{
+  background-color: #4E5851;
+  border-style:solid;
+  border-color: #b4afa1;
+  border-width: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quotes{
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  padding:120px 0px 0px 70px;
+}
+
+.author{
+  font-size: 30px;
+  font-family: 'WindSong', cursive;
+  padding-left: 300px;
+}
+
+#intro img{
+  width: 450px;
+  height: auto;
+  margin-right: 0%;
 }
 
 @media only screen and (max-width: 600px){
