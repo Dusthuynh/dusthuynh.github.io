@@ -1,5 +1,7 @@
 body{
   background-color: #b4b4b4;
+  background-image: url(img/bgpj.jpg);
+  backdrop-filter: blur(5px);
   background-size: cover;
   color: #e7e7e7;
   margin: 0px;
@@ -91,9 +93,46 @@ footer{
 }
 
 #main{
+  font-size: 30px;
+  margin: 80px 20px 70px 20px;
+  font-family: 'Georama', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+#thebushcf{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 30px;
+  width: 300px;
+  text-decoration: none;
+  transition: transform 0.3s;
+  padding-left: 10px;
+}
+
+.thebush{
+  margin:2px 4px 7px 0px;
+}
+#thebushcf:hover{
+  transform: scale(1.1);
+}
+
+.text{
+  padding-left: 5%;
+  color: #e7e7e7;
+}
+
+.time{
+  font-size: 20px;
+  color: #837a62;
+  font-weight: 800;
+}
+
+.title{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.description{
+  font-size: 20px;
+  font-weight: 500;
 }
