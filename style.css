@@ -2,8 +2,14 @@ body{
  background-color: #4E5851;
  background-size: cover;
  color: #e7e7e7;
- margin: 0;
+ margin: 0px;
  padding: 0;
+}
+
+#top{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 #topnav{
@@ -67,11 +73,6 @@ body{
 
 .logo:hover{
   transform: scale(1.1);
-}
-
-#top{
-  display: flex;
-  justify-content: space-between;
 }
 
 #intro{
