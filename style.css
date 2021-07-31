@@ -10,7 +10,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .content a {
@@ -56,16 +56,13 @@ body{
   background-color: #ada692;
 }
 
-.trend {
-padding-left: 43%;
-}
-
 .logo{
   color: rgb(255, 255, 255);
-  padding: 30px 30px 0px 30px;
+  padding: 20px 30px 0px 60px;
   font-size: 45px;
   font-family: 'Style Script', cursive;
   transition: transform 1s;
+  text-decoration: none; 
 }
 
 .logo:hover{
@@ -75,7 +72,6 @@ padding-left: 43%;
 #top{
   display: flex;
   justify-content: space-between;
-  margin-left: 30px;
 }
 
 #intro{
