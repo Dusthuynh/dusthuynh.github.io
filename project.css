@@ -94,7 +94,7 @@ footer{
 
 #main{
   font-size: 30px;
-  margin: 80px 20px 70px 20px;
+  margin: 120px 20px 70px 20px;
   font-family: 'Georama', sans-serif;
   display: flex;
   justify-content: space-between;
@@ -130,6 +130,10 @@ footer{
 .title{
   font-size: 25px;
   font-weight: bolder;
+}
+
+.title:hover{
+  color:rgb(196, 132, 50);
 }
 
 .description{
