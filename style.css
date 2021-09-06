@@ -37,7 +37,7 @@ body{
 }
 
 
-#linkSM{
+.linkSM{
   padding-top: 25px;
   margin-right: 40px;
 }
@@ -132,4 +132,129 @@ footer{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+@media only screen and (max-width: 600px){
+  body{
+      background-color: #4E5851;
+      background-size: cover;
+      color: #e7e7e7;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #top{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 20px;
+  }
+
+  .logo{
+      color: rgb(228, 228, 228);
+      font-size: 60px;
+      font-family: 'Style Script', cursive;
+      transition: transform 5s;
+      text-decoration: none; 
+  }
+
+  #topnav{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .content a {
+      float:left;
+      padding: 20px 10px;
+      color: rgb(255, 255, 255);
+      text-decoration: none; 
+      font-weight:200;
+      font-family: 'Chakra Petch', sans-serif;
+  }
+
+  .content a:visited {
+      color: #e9e1cf;
+  }
+
+
+  .icon{
+      margin-left: 10px;
+      padding: 5px;
+      color: rgb(233, 233, 233);
+      border-style:solid;
+      border-block-start-width: 5px;
+      border-top-color: #ada692;
+  }
+
+  .facebook{
+      padding-left: 8px;
+      padding-right: 8px;
+  }
+
+  #intro{
+      background-color: #4E5851;
+      border-style:solid;
+      border-color: #9ea19f;
+      width: 100%;
+      border-width: 10px;
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 20px;
+      padding-left: 10px;
+  }
+
+  .quotes{
+      padding-top: 20px;
+      font-size: 12px;
+      font-family: 'Ubuntu', sans-serif;
+  }
+
+  .author{
+      font-size: 15px;
+      color: rgb(202, 152, 86);
+      font-family: 'WindSong', cursive;
+      padding-left: 30px;
+  }
+
+  #intro img{
+      max-width: 150px;
+      height: auto;
+  }
+
+  #main{
+      padding: 20px 10px 10px 10px;
+  }
+
+  #main img{
+      padding-top: 20px;
+      padding-bottom: 30px;
+      padding-left: 70px;
+      max-width: 200px;
+      height: auto;
+  }
+
+  .text{
+      text-align: center;
+      font-size: 19px;
+      font-family: 'Barlow', sans-serif;
+  }
+
+  .text a{
+      text-decoration: none;
+      color: #ada692;
+  }
+
+  .footer{
+      font-size: 15px;
+      color: #9caaa0;
+      font-family: 'Ubuntu', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+  }
 }
